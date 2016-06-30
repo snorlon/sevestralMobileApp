@@ -1,0 +1,778 @@
+Fire	1	1	Magma Lake
+Fire	2	1	Magma Lake
+Fire	3	1	Ash
+Fire	4	1	Magma Lake
+Fire	5	1	Magma Lake
+Fire	6	1	Magma Lake
+Fire	7	1	Ash
+Fire	8	1	Ash
+Fire	9	1	Ash
+Fire	10	1	Ash
+Fire	11	1	Ash
+Fire	12	1	Ash
+Fire	13	1	Ash
+Fire	14	1	Ash
+Fire	15	1	Ash
+Fire	16	1	Ash
+
+Fire	1	2	Magma Lake
+Fire	2	2	Magma Lake
+Fire	3	2	Magma Lake
+Fire	4	2	Magma Lake
+Fire	5	2	Ash
+Fire	6	2	Magma Lake
+Fire	7	2	Ash
+Fire	8	2	Ash
+Fire	9	2	Ash
+Fire	10	2	Ash
+Fire	11	2	Ash
+Fire	12	2	Ash
+Fire	13	2	Ash
+Fire	14	2	Ash
+Fire	15	2	Ash
+Fire	16	2	Ash
+
+Fire	1	3	Magma Lake
+Fire	2	3	Magma Lake
+Fire	3	3	Magma Lake
+Fire	4	3	Magma Pond
+Fire	5	3	Magma Pond
+Fire	6	3	Magma Lake
+Fire	7	3	Ash
+Fire	8	3	Ash
+Fire	9	3	Ash
+Fire	10	3	Ash
+Fire	11	3	Ash
+Fire	12	3	Ash
+Fire	13	3	Ash
+Fire	14	3	Ash
+Fire	15	3	Ash
+Fire	16	3	Ash
+
+Fire	1	4	Ash
+Fire	2	4	Magma Lake
+Fire	3	4	Magma River
+Fire	4	4	Magma Lake
+Fire	5	4	Magma Lake
+Fire	6	4	Magma Pond
+Fire	7	4	Ash
+Fire	8	4	Ash
+Fire	9	4	Ash
+Fire	10	4	Ash
+Fire	11	4	Ash
+Fire	12	4	Ash
+Fire	13	4	Ash
+Fire	14	4	Ash
+Fire	15	4	Ash
+Fire	16	4	Ash
+
+Fire	1	5	Ash
+Fire	2	5	Bluzlun	T
+	Population	10
+
+	Building	Guild	2
+	Building	Inn	1
+	Building	General Store	1
+	Building	Spaceport	1
+Fire	3	5	Magma River
+Fire	4	5	Ash
+Fire	5	5	Ash
+Fire	6	5	Ash
+Fire	7	5	Ash
+Fire	8	5	Ash
+Fire	9	5	Ash
+Fire	10	5	Ash
+Fire	11	5	Ash
+Fire	12	5	Ash
+Fire	13	5	Ash
+Fire	14	5	Ash
+Fire	15	5	Ash
+Fire	16	5	Ash
+
+Fire	1	6	Shore
+Fire	2	6	Ash
+Fire	3	6	Ash
+Fire	4	6	Ash
+Fire	5	6	Ash
+Fire	6	6	Ash
+Fire	7	6	Ash
+Fire	8	6	Ash
+Fire	9	6	Ash
+Fire	10	6	Ash
+Fire	11	6	Ash
+Fire	12	6	Ash
+Fire	13	6	Ash
+Fire	14	6	Ash
+Fire	15	6	Ash
+Fire	16	6	Ash
+
+Fire	1	7	Shore
+Fire	2	7	Shore
+Fire	3	7	Ash
+Fire	4	7	Shore
+Fire	5	7	Island
+Fire	6	7	Ash
+Fire	7	7	Ash
+Fire	8	7	Ash
+Fire	9	7	Ash
+Fire	10	7	Shore
+Fire	11	7	Shore
+Fire	12	7	Shore
+Fire	13	7	Shore
+Fire	14	7	Shore
+Fire	15	7	Island
+Fire	16	7	Shore
+
+Fire	1	8	Steam
+Fire	2	8	Steam
+Fire	3	8	Steam
+Fire	4	8	Steam
+Fire	5	8	Steam
+Fire	6	8	Steam
+Fire	7	8	Steam
+Fire	8	8	Steam
+Fire	9	8	Steam
+Fire	10	8	Steam
+Fire	11	8	Steam
+Fire	12	8	Steam
+Fire	13	8	Steam
+Fire	14	8	Steam
+Fire	15	8	Steam
+Fire	16	8	Steam
+
+
+Water	1	1	Tundra
+Water	2	1	Tundra
+Water	3	1	Polar Output	T
+	Population	10
+	
+	Building	Guild	1
+	Building	Inn	1
+Water	4	1	Tundra
+Water	5	1	Tundra
+Water	6	1	Tundra
+Water	7	1	Tundra
+Water	8	1	Tundra
+Water	9	1	Tundra
+Water	10	1	Arcterous	T
+	Population	140
+	
+	Building	Guild	8
+	Building	Inn	9
+Water	11	1	Tundra
+Water	12	1	Tundra
+Water	13	1	Tundra
+Water	14	1	Tundra
+Water	15	1	Tundra
+Water	16	1	Tundra
+
+Water	1	2	Bay
+Water	2	2	Shore
+Water	3	2	Land
+Water	4	2	Land
+Water	5	2	Shore
+Water	6	2	Sea
+Water	7	2	Island
+Water	8	2	Island
+Water	9	2	Sea
+Water	10	2	Island
+Water	11	2	Sea
+Water	12	2	Island
+Water	13	2	Wailing Isle	T
+	Population	20
+	
+	Building	Guild	3
+	Building	Inn	1
+Water	14	2	Sea
+Water	15	2	Sea
+Water	16	2	Sea
+
+Water	1	3	Land
+Water	2	3	Land
+Water	3	3	Land
+Water	4	3	Eternal Resort	T
+	Population	100
+	
+	Building	Guild	1
+	Building	Inn	8
+Water	5	3	Island
+Water	6	3	Sea
+Water	7	3	Sandy Island	T
+	Population	40
+	
+	Building	Guild	4
+	Building	Inn	2
+Water	8	3	Island
+Water	9	3	Island
+Water	10	3	Sea
+Water	11	3	Sea
+Water	12	3	Island
+Water	13	3	Sea
+Water	14	3	Sea
+Water	15	3	Sea
+Water	16	3	Sea
+	
+Water	1	4	Shore
+Water	2	4	Land
+Water	3	4	Land
+Water	4	4	Shore
+Water	5	4	Sea
+Water	6	4	Island
+Water	7	4	Island
+Water	8	4	Island
+Water	9	4	Island
+Water	10	4	Outcast Isle	T
+	Population	70
+	
+	Building	Guild	2
+	Building	Inn	3
+	Building	General Store	5
+	Building	Blacksmith	3
+	Building	Spellshop	1
+	Building	Market	2
+	Building	Spaceport	1
+Water	11	4	Sea
+Water	12	4	Island
+Water	13	4	Sea
+Water	14	4	Sea
+Water	15	4	Sea
+Water	16	4	Sea
+
+Water	1	5	Shore
+Water	2	5	Land
+Water	3	5	Land
+Water	4	5	Shore
+Water	5	5	Sea
+Water	6	5	Sea
+Water	7	5	Sea
+Water	8	5	Rum Islamds	T
+	Population	60
+	
+	Building	Guild	7
+	Building	Inn	5
+Water	9	5	Sea
+Water	10	5	Sea
+Water	11	5	Sea
+Water	12	5	Sea
+Water	13	5	Sea
+Water	14	5	Bastopolis	T
+	Population	150
+	
+	Building	Guild	10
+	Building	Inn	1
+	Building	Guard Tower	1
+	Building	General Store	4
+	Building	Spellshop	5
+	Building	Market	3
+	Building	House	0
+	Building	Spaceport	1
+Water	15	5	Sea
+Water	16	5	Sea
+	
+Water	1	6	Shore
+Water	2	6	Land
+Water	3	6	Quoto City	T
+	Population	120
+	
+	Building	Guild	5
+	Building	Inn	4
+	Building	General Store	4
+	Building	Blacksmith	4
+	Building	Spellshop	2
+	Building	Market	5
+	Building	Spaceport	1
+Water	4	6	Sea
+Water	5	6	Sea
+Water	6	6	Sea
+Water	7	6	Island
+Water	8	6	Island
+Water	9	6	Island
+Water	10	6	Sea
+Water	11	6	Shipwrecks
+Water	12	6	Shipwrecks
+Water	13	6	Sea
+Water	14	6	Sea
+Water	15	6	Sea
+Water	16	6	Sea
+
+Water	1	7	Sea
+Water	2	7	Island
+Water	3	7	Sea
+Water	4	7	Sea
+Water	5	7	Island
+Water	6	7	Sea
+Water	7	7	Tunis Island	T
+	Population	30
+	
+	Building	Guild	1
+	Building	Inn	2
+	Building	General Store	2
+	Building	Spaceport	1
+Water	8	7	Island
+Water	9	7	Sea
+Water	10	7	Sea
+Water	11	7	Sea
+Water	12	7	Shipwrecks
+Water	13	7	Sea
+Water	14	7	Sea
+Water	15	7	Sea
+Water	16	7	Sea
+
+
+Water	1	8	Tundra
+Water	2	8	Tundra
+Water	3	8	Tundra
+Water	4	8	Shore
+Water	5	8	Big Cod Village	T
+	Population	30
+	
+	Building	Guild	2
+	Building	Inn	2
+Water	6	8	Tundra
+Water	7	8	Tundra
+Water	8	8	Tundra
+Water	9	8	Tundra
+Water	10	8	Tundra
+Water	11	8	Tundra
+Water	12	8	Tundra
+Water	13	8	Artic Beach	T
+	Population	50
+	
+	Building	Guild	3
+	Building	Inn	5
+Water	14	8	Tundra
+Water	15	8	Tundra
+Water	16	8	Tundra
+
+
+Earth	1	1	Mud Swamp
+Earth	2	1	Mud Swamp
+Earth	3	1	Mud Swamp
+Earth	4	1	Mud Swamp
+Earth	5	1	Mud Swamp
+Earth	6	1	Mud Swamp
+Earth	7	1	Mud Swamp
+Earth	8	1	Mud Swamp
+Earth	9	1	Mud Swamp
+Earth	10	1	Mud Swamp
+Earth	11	1	Mud Swamp
+Earth	12	1	Mud Swamp
+Earth	13	1	Mud Swamp
+Earth	14	1	Mud Swamp
+Earth	15	1	Mud Swamp
+Earth	16	1	Mud Swamp
+	
+Earth	1	2	Field
+Earth	2	2	Field
+Earth	3	2	Field
+Earth	4	2	Field
+Earth	5	2	Field
+Earth	6	2	Field
+Earth	7	2	Field
+Earth	8	2	Field
+Earth	9	2	Field
+Earth	10	2	Field
+Earth	11	2	Field
+Earth	12	2	Mountain
+Earth	13	2	Mountain
+Earth	14	2	Mountain
+Earth	15	2	Mine
+Earth	16	2	Mountain
+
+Earth	1	3	Forest
+Earth	2	3	Forest
+Earth	3	3	Forest
+Earth	4	3	Forest
+Earth	5	3	Field
+Earth	6	3	Field
+Earth	7	3	Field
+Earth	8	3	Field
+Earth	9	3	Field
+Earth	10	3	Field
+Earth	11	3	Field
+Earth	12	3	Field
+Earth	13	3	Mountain
+Earth	14	3	Mountain
+Earth	15	3	Mountain
+Earth	16	3	Mountain
+
+Earth	1	4	Forest
+Earth	2	4	Forest
+Earth	3	4	Vergran City	T
+	Population	90
+
+	Building	Guild	4
+	Building	Inn	3
+	Building	Guard Tower	4
+	Building	General Store	3
+	Building	Blacksmith	1
+	Building	Spellshop	4
+	Building	Market	4
+	Building	Spaceport	1
+Earth	4	4	Forest
+Earth	5	4	Forest
+Earth	6	4	Field
+Earth	7	4	Field
+Earth	8	4	Field
+Earth	9	4	Field
+Earth	10	4	Shore
+Earth	11	4	Lake
+Earth	12	4	Shore
+Earth	13	4	Crystal Cave
+Earth	14	4	Crystal Cave
+Earth	15	4	Mountain
+Earth	16	4	Forest
+
+Earth	1	5	Forest
+Earth	2	5	Forest
+Earth	3	5	Forest
+Earth	4	5	Forest
+Earth	5	5	Forest
+Earth	6	5	Forest
+Earth	7	5	Field
+Earth	8	5	Field
+Earth	9	5	Field
+Earth	10	5	Shore
+Earth	11	5	Sea
+Earth	12	5	Shore
+Earth	13	5	Crystalline Cave
+Earth	14	5	Crystalline Cave
+Earth	15	5	Forest
+Earth	16	5	Forest
+	
+Earth	1	6	Forest
+Earth	2	6	Lake
+Earth	3	6	Lake
+Earth	4	6	Forest
+Earth	5	6	Forest
+Earth	6	6	Forest
+Earth	7	6	Forest
+Earth	8	6	Field
+Earth	9	6	Inlet
+Earth	10	6	Shore
+Earth	11	6	Sea
+Earth	12	6	Shore
+Earth	13	6	Crystalline Cave
+Earth	14	6	Crystalline Cave
+Earth	15	6	Forest
+Earth	16	6	Forest
+
+Earth	1	7	Lake
+Earth	2	7	Lake
+Earth	3	7	Forest
+Earth	4	7	Forest
+Earth	5	7	Forest
+Earth	6	7	Forest
+Earth	7	7	Forest
+Earth	8	7	Field
+Earth	9	7	Sea
+Earth	10	7	Sea
+Earth	11	7	Sea
+Earth	12	7	Field
+Earth	13	7	Field
+Earth	14	7	Forest
+Earth	15	7	Forest
+Earth	16	7	Forest
+
+Earth	1	8	Lake
+Earth	2	8	Lake
+Earth	3	8	Forest
+Earth	4	8	Forest
+Earth	5	8	Forest
+Earth	6	8	Forest
+Earth	7	8	Forest
+Earth	8	8	Forest
+Earth	9	8	Sea
+Earth	10	8	Field
+Earth	11	8	Field
+Earth	12	8	Forest
+Earth	13	8	Forest
+Earth	14	8	Forest
+Earth	15	8	Forest
+Earth	16	8	Forest
+
+Wind	1	1	Tundra
+Wind	2	1	Tundra
+Wind	3	1	Tundra
+Wind	4	1	Tundra
+Wind	5	1	Tundra
+Wind	6	1	Desert
+Wind	7	1	Desert
+Wind	8	1	Desert
+Wind	9	1	Sea
+Wind	10	1	Sea
+Wind	11	1	Shore
+Wind	12	1	Desert
+Wind	13	1	Tundra
+Wind	14	1	Tundra
+Wind	15	1	Tundra
+Wind	16	1	Tundra
+
+Wind	1	2	Tundra
+Wind	2	2	Tundra
+Wind	3	2	Tundra
+Wind	4	2	Tundra
+Wind	5	2	Tundra
+Wind	6	2	Desert
+Wind	7	2	Sand Crater
+Wind	8	2	Desert
+Wind	9	2	Sea
+Wind	10	2	Sea
+Wind	11	2	Sea
+Wind	12	2	Sea
+Wind	13	2	Tundra
+Wind	14	2	Tundra
+Wind	15	2	Tundra
+Wind	16	2	Tundra
+
+Wind	1	3	Tundra
+Wind	2	3	Mist
+Wind	3	3	Mist
+Wind	4	3	Sand Crater
+Wind	5	3	Tundra
+Wind	6	3	Desert
+Wind	7	3	Desert
+Wind	8	3	Oasis
+Wind	9	3	Desert
+Wind	10	3	Sea
+Wind	11	3	Sea
+Wind	12	3	Sea
+Wind	13	3	Sea
+Wind	14	3	Tundra
+Wind	15	3	Tundra
+Wind	16	3	Tundra
+
+Wind	1	4	Tundra
+Wind	2	4	Mist
+Wind	3	4	Sand Crater
+Wind	4	4	Sand Crater
+Wind	5	4	Tundra
+Wind	6	4	Desert
+Wind	7	4	Desert
+Wind	8	4	Lake
+Wind	9	4	Sea
+Wind	10	4	Sea
+Wind	11	4	Sea
+Wind	12	4	Shore
+Wind	13	4	Frozen
+Wind	14	4	Frozen
+Wind	15	4	Tundra
+Wind	16	4	Tundra
+
+Wind	1	5	Tundra
+Wind	2	5	Mist
+Wind	3	5	Sand Crater
+Wind	4	5	Sand Crater
+Wind	5	5	Tundra
+Wind	6	5	Desert
+Wind	7	5	Sand Crater
+Wind	8	5	Desert
+Wind	9	5	Lake
+Wind	10	5	Lake
+Wind	11	5	Sea
+Wind	12	5	Inlet
+Wind	13	5	Frozen
+Wind	14	5	Frozen
+Wind	15	5	Tundra
+Wind	16	5	Tundra
+
+Wind	1	6	Tundra
+Wind	2	6	Mist
+Wind	3	6	Mist
+Wind	4	6	Tundra
+Wind	5	6	Tundra
+Wind	6	6	Desert
+Wind	7	6	Desert
+Wind	8	6	Pebril Town	T
+	Population	20
+
+	Building	Guild	2
+	Building	Inn	1
+	Building	Guard Tower	1
+	Building	General Store	1
+	Building	Hospital	1
+	Building	Spaceport	1
+Wind	9	6	Lake
+Wind	10	6	Lake
+Wind	11	6	Lake
+Wind	12	6	Oasis
+Wind	13	6	Frozen Lake
+Wind	14	6	Frozen Lake
+Wind	15	6	Tundra
+Wind	16	6	Tundra
+
+Wind	1	7	Tundra
+Wind	2	7	Mist
+Wind	3	7	Mist
+Wind	4	7	Tundra
+Wind	5	7	Tundra
+Wind	6	7	Sand Crater
+Wind	7	7	Desert
+Wind	8	7	Desert
+Wind	9	7	Desert
+Wind	10	7	Desert
+Wind	11	7	Lake
+Wind	12	7	Desert
+Wind	13	7	Tundra
+Wind	14	7	Tundra
+Wind	15	7	Tundra
+Wind	16	7	Tundra
+
+Wind	1	8	Tundra
+Wind	2	8	Tundra
+Wind	3	8	Tundra
+Wind	4	8	Tundra
+Wind	5	8	Tundra
+Wind	6	8	Sand Crater
+Wind	7	8	Desert
+Wind	8	8	Desert
+Wind	9	8	Desert
+Wind	10	8	Desert
+Wind	11	8	Desert
+Wind	12	8	Desert
+Wind	13	8	Tundra
+Wind	14	8	Tundra
+Wind	15	8	Tundra
+Wind	16	8	Tundra
+
+
+Void	1	1	Mountain
+Void	2	1	River
+Void	3	1	Mountain
+Void	4	1	Plains
+Void	5	1	Lake
+Void	6	1	Mountain
+Void	7	1	Mountain
+Void	8	1	Plains
+Void	9	1	Lake
+Void	10	1	Lake
+Void	11	1	Plains
+Void	12	1	Mountain
+Void	13	1	Mountain
+Void	14	1	Lake
+Void	15	1	River
+Void	16	1	Mountain
+
+Void	1	2	Plains
+Void	2	2	Lake
+Void	3	2	River
+Void	4	2	Mountain
+Void	5	2	River
+Void	6	2	Lake
+Void	7	2	Mountain
+Void	8	2	Lake
+Void	9	2	Plains
+Void	10	2	Mountain
+Void	11	2	Lake
+Void	12	2	River
+Void	13	2	River
+Void	14	2	River
+Void	15	2	Mountain
+Void	16	2	River
+
+Void	1	3	River
+Void	2	3	River
+Void	3	3	Mountain
+Void	4	3	River
+Void	5	3	Mountain
+Void	6	3	Mountain
+Void	7	3	River
+Void	8	3	River
+Void	9	3	Plains
+Void	10	3	Mountain
+Void	11	3	Lake
+Void	12	3	Lake
+Void	13	3	River
+Void	14	3	Mountain
+Void	15	3	Plains
+Void	16	3	River
+
+Void	1	4	River
+Void	2	4	Plains
+Void	3	4	Lake
+Void	4	4	River
+Void	5	4	Lake
+Void	6	4	Lake
+Void	7	4	River
+Void	8	4	Lake
+Void	9	4	River
+Void	10	4	Plains
+Void	11	4	Mountain
+Void	12	4	Lake
+Void	13	4	River
+Void	14	4	Plains
+Void	15	4	Lake
+Void	16	4	Plains
+
+Void	1	5	Mountain
+Void	2	5	Lake
+Void	3	5	Plains
+Void	4	5	Mountain
+Void	5	5	Lake
+Void	6	5	Pond
+Void	7	5	Pond
+Void	8	5	Lake
+Void	9	5	River
+Void	10	5	River
+Void	11	5	Lake
+Void	12	5	Plains
+Void	13	5	Mountain
+Void	14	5	River
+Void	15	5	River
+Void	16	5	Lake
+
+Void	1	6	Mountain
+Void	2	6	Mountain
+Void	3	6	Lake
+Void	4	6	Plains
+Void	5	6	Plains
+Void	6	6	Cave
+Void	7	6	Paradox	T
+	Population	69
+	
+	Building	Guild	3
+	Building	Inn	1
+	Building	Spaceport	1
+Void	8	6	Plains
+Void	9	6	River
+Void	10	6	River
+Void	11	6	River
+Void	12	6	River
+Void	13	6	Plains
+Void	14	6	Lake
+Void	15	6	Mountain
+Void	16	6	Plains
+
+Void	1	7	Mountain
+Void	2	7	River
+Void	3	7	Mountain
+Void	4	7	Plains
+Void	5	7	River
+Void	6	7	Lake
+Void	7	7	River
+Void	8	7	River
+Void	9	7	River
+Void	10	7	Lake
+Void	11	7	Mountain
+Void	12	7	River
+Void	13	7	Mountain
+Void	14	7	Lake
+Void	15	7	Lake
+Void	16	7	River
+
+Void	1	8	Lake
+Void	2	8	River
+Void	3	8	River
+Void	4	8	Plains
+Void	5	8	Plains
+Void	6	8	Lake
+Void	7	8	Plains
+Void	8	8	River
+Void	9	8	River
+Void	10	8	Plains
+Void	11	8	Lake
+Void	12	8	River
+Void	13	8	River
+Void	14	8	Mountain
+Void	15	8	Lake
+Void	16	8	Plains

@@ -1,0 +1,550 @@
+Planned:
+	Undecided:
+		Units
+			Add support for spawning with specific armor, weapons, and spells
+			Add wildcard equipment support where they *can* spawn with it but may not
+				Will fill all slots randomly with potential spawns
+
+	Quest System
+		Daily quests for rarer rewards
+		Story quests for directing players to progress in the gameplay
+		
+	Last tasks:
+		Achievement system
+			Rare/unique rewards given, persists through new-game
+				Rewards re-granted when starting over
+				Can reobtain through achievement infinitely?
+			Aim for 128 achievements total to obtain
+			Types of achievements
+				Defeat 1/50/100/250/500/999 of an enemy
+					Depending on difficulty to vanquish
+				Beat dieties on a certain difficulty
+				Beating newgame+
+				Using house items for the first time
+				Winning 1/50/250/500/999 battles
+				Losing 1/50/250/500/999 battles
+				Collecting certain super-rare items
+				Do 5/50/500/999 daily achievements
+			Tie into google play achievements??
+		
+		Tutorial system
+			Annotated screenshots of UI element examples
+				Has link back to prior screen (the one the tutorial is for)
+			Shows every time on first playthrough until it's been seen once
+			Add help button to bring up this screen next to title of UI pages
+				Help button resets flag for having seen it and reopens UI basically
+	
+	
+	
+	Late tasks:					
+		Faction
+			Diety Territory system?
+				Each diety controls around 30% of their respective planet
+					Only about 30%-50% of the planet starts out under the control of each faction
+					Can defeat diety to get them to submit to you and unlock in the arena
+						If they had any territory still, it becomes owner-less
+					Must defeat all 16 to "win"
+						Game continues as long as you want, but technically ends here with a "You win" screen and option for new-game+
+							Can force them to re-activate in a sense
+						Until god and goddess are beaten, they will attempt to free discontent areas
+					Enforced on AI factions as well
+						will not extend beyond planet however
+				Save/load diety data in savefile
+	
+								
+		Sound
+			Background music beat
+				subtle, temporary
+				loops
+			Victory music
+				Up-beat
+				loops
+	
+			
+		Loading screen
+			Only while starting up until everything is loaded in
+			Progress bar that updates with each module?
+				X out of Y modules loaded
+	
+	Soon tasks:			
+		Towns
+			Implement buildings
+				Arena XXX
+					Allows player to spar with various units	XXX
+						Only allows enemies player has defeated in this or any prior playthrough
+						Select difficulty
+							Easy - Medium - Hard - Very Hard - Impossible - Diety
+								Theme per difficulty?
+							Easy-Impossible determines level and stats of foe
+							Diety exclusively contains the dieties in the game world after they've been beaten normally
+							Difficulty must be unlocked in addition to having beaten the prior difficulty
+								Avoids players getting heavy beatdowns prematurely
+						Creatures randomly selected daily/every 4 hours (real time) per difficulty tier
+							Stored in save file
+					improved military training at location
+					Has normal rewards and counts for quests
+					Only exists at one spot in the game world	XXX
+						Player starting spot?
+							Temporarily hard-coded coordinates/town name
+					Expensive to upgrade, persist to newgame+
+						Upgrades permanent
+						Default has Easy
+						Need levels for Medium, Hard, Very Hard, Impossible, and Diety(max level)
+					Cannot be destroyed
+				Hospital
+				Tavern
+				Bank
+				Keep
+				Wall
+					does nothing (for now)
+				
+			House system
+				Can own property in EACH town
+					Uses one building slot
+					Must buy property
+						Can do so without controlling the town
+						Price varies from town to town, tax rate applies to house purchase
+							Price varies from house model to house model
+					Can modify the buildings for gold
+			
+	
+		Options
+			AI Difficulty (easy / medium / hard)
+				impacts enemy faction aggressiveness, effectiveness
+				makes dieties more active/less active
+				does not impact player faction AI
+				locked on unfair game difficulty
+			
+		Army System
+			Soldiers commanded by the player
+				Abstracted to be mostly just strength + position + morale
+			Each town has a defense force based on population and military buildings in town
+				Possibly aggression as well (default for town0
+				Estimated prior to attacking, randomly updates every turn as "new intel"
+				
+		Faction attack system
+			One faction per planet
+				Each faction has its own interests determined by the leader
+					Randomly decided at start of the game
+			Player starting planet has non-diety faction ditched possibly?
+			Incoming/Outgoing attacks visible in command system
+			Takes several turns for attacks depending on map distance between them
+		
+		Notification system
+			Shows incoming attacks and priority issues with towns
+				Ex: Diety approaching, town at risk of being freed
+				Ex: Faction approaching with army in X turns
+				
+	Log events
+		Town coming/leaving under player ownership
+			Reason
+				Player loyalty > owner loyalty
+				Player Loyalty > 95
+				Player conquered it
+		Military results
+				
+	Town Loyalty
+		Changes every turn based on citizen opinion of leadership
+			Military strength
+			Player actions
+					
+	Space Planet Design
+		Random pieces of other planets
+		Every turn there is an X% chance to change each tile
+			With that tile also comes 75% of the spawns
+			Space creatures randomly attached to spawns
+				AKA random space typing spawn picked and added to spawnlist when tile changes
+		Towns are permanent
+		Randomly picked from ALL locations
+			Level not taken from borrow land
+			Original location still has same creatures + Terrain
+			
+
+To do:
+	3 new outfits
+	1 new face
+				
+	New Game			
+		Selecting character attire from presets	X
+		Selecting race?
+		
+		Picking 2 innate skills	X
+			All equally strong
+			Customize?
+				Icon?
+				Typing(s)
+				Attack type?
+				Name auto-generated from best match
+			Presets?
+				List of attacks with their small icons and a scroll option?
+				Sorted by type1>type2>attack type
+					First is damage of 0.5f
+					Second is damage of 1.0f
+			
+		Picking stat distribution	X
+		
+		Game Difficulty
+			ONLY available to change on game start
+			impacts overall difficulty (except for AI)
+			apply to all spawns (except dieties)
+	
+	Bugs:
+		Not healing on mobile after battles 
+			Found with diety battle
+		Occasional mismatch between current location and where you are moving to
+			Results in sometimes entering current town instead of moving, or entering current battle instead of moving
+		Diety can go out of bounds (y of 0)
+		
+Next:
+	Map difficulty determined with starting location
+		Algorithm
+			Each map has a level from 1 to 300
+				scales more in new game+ or with the higher game difficulties
+					Function call given the difficulty
+						Flag for override resetting priors (in the event of fresh data)
+						Iterates across all locations to reset their level to 0
+						Then iterates again to start assigning levels
+			One starting spot per town that you are expected to start your planet journey at
+				Lower levels concentrated there
+					Once lower levels allocated, pick another town from each location to distribute levels too
+						Once that territory is fully allocated, repeat
+							Continue until all maps have a level assigned
+		Store level in savefile
+			
+	Revamp world view locations
+	Reaffirm world map design decisions
+			
+	Inn
+		Fire units screen
+			
+	Towns
+		Implement buildings
+			Town Hall
+				Accessible via town management UI
+				Allow actions with town
+					Includes recruiting from citizens
+						Will work to "buy" citizens into your army in increments of 1, 25, 100, etc out of total citizens in town
+				Shows town coffers
+				Cannot be entered if not owned town
+		
+	Town Management UI
+		Allows building/upgrading/destroying buildings
+		Gives access to town hall
+		Accessible from command screen
+
+TODAY:				
+	Port remaining items
+	Fix saving items and reset savefile
+	Replace saved equipment items and spells with simple-name
+	Make unique armor pieces
+		Update saving/loading appropriately
+	Change item-sheet size and max-frames to constants
+		Allows us to expand item sheet size in future
+		
+	Revamp inventory screen
+		Show item data in the tiles themselves
+		Make tiles clickable independent of image size
+		Make shown images themselves only 2x mult
+		Add in item-type icons
+		Make UI look more "sleek"
+		Show preview of furniture for house
+		Use special stat icons with + or up arrow for potions and food
+		Show cost and strength bars for spells and weapons
+		Leave armor the same
+		Show more items
+		Make filter simple arrow left and right to select filters
+		
+	Revamp Consume screen
+	Revamp store UI's to fit modifications
+
+	[
+		4 PM NO INTERNET, NO RADIO, NO ANDROID, NO WII U, NO 3DS (DONT BUDGE)
+			Must have completed ALL tasks here
+			Recreation MAY NOT START UNTIL 4 PM
+			
+			
+			
+		2	Create ALL new creatures
+			Drilbur-like mole, feathered, sand-colored
+			Winged snake/serpent
+				feathered
+				
+		Create Snowflake Defense weapon
+			Make it of simplistic 32x32 scaled up variety
+				
+		Fix dieties being able to go to y of 0
+		Store/load diety locations and active
+	
+		Switch saves to store name of weapons and spells, generate new instance every time?
+	]
+	
+	[
+		Create transfer between console sensor and input module
+		Prepare console output module
+		Create coreAI to convert input into output
+		Create CoreAI thread and execute it
+		Hookup InputModule and CoreAI
+			Take messages from InputModule and process them
+		Hookup CoreAI and console output
+		Create output buffer for console
+		Add output from CoreAI to console output
+		Make console output process messages as a thread and execute it
+	]
+
+	Maps
+		Pyrash
+			Steam Elemental
+			Fire Spirit
+				Pure fire
+				Dragon-like mouth, fangs
+				Serpent shape, but not long
+				
+			Phoenix-like creature
+			
+		Serdralus
+			Storm Elemental
+			
+			Terraken
+				quad tentacles
+					8 tentacles split off each into 4 more mini tentacles
+				void/time based
+				massive sabertooth-style fangs
+				
+			Water Dragon
+				Scaly and sea-monster-like
+			
+		Terkos
+			Earth Dragon
+				Covered in crystals and cracked dirt
+			
+		Falezia
+			Sand Elemental
+			Wind Elemental
+			
+			Gryphon-like creature
+			
+			Wind Dragon
+				Clouds-based
+
+Changelog:
+	Version 1.0.008 - Adventuring
+	
+				
+		World:
+			Pyrash
+				-- Revised world map
+				-- New Battles
+				-- Moved battles
+			Serdralus
+				-- New Battles
+				-- New Towns
+				-- Moved Town
+			Terkos
+				-- New Battles
+			Falezia
+				-- Revised world map
+				-- New Battles
+			Vorados
+				-- Added
+				-- New Battles
+				-- New Towns
+				
+		Towns
+			Town Loyalty
+				-- On entering new ownership, loyalty defaults to 60
+				-- Defect from leader if < 20
+					** All military drops 90%
+					** Faction turns to Independent
+				-- Changes every turn based on citizen opinion of leadership
+					** Doing quests will increase the loyalty in the town if the player does not currently control it
+					** Otherwise, the more the player helps the town while controlling it, the faster the loyalty will go up
+				-- It's displayed on the explore map interface
+					** This is the loyalty the town has to the player
+					
+			Guilds
+				-- Every town now has a guild
+				-- Each guild has many quests available to the player
+					** The player may take any of these quests as long as their quest list is not full
+				-- Upon completing a quest, the town giving the request becomes more loyal to the player
+					** Additionally, the player gets a small reward
+				-- Every turn, guilds have a chance to change their offerings for quests
+					
+		Items:
+			Spells
+				-- Converted all existing creature spells into acquirable items
+				-- Several new ability spells added
+				
+		Military:
+			Basics of military system implemented
+			Towns gain by default 2 Military power per turn, capped by the towns population*10
+			
+		UI:
+			Player Quests screen added
+				-- It shows the user all quests they currently have accepted and where they are came from
+				-- Tapping a listing of a quest will view the quest information in detail
+			Main Menu
+				-- Revised to fit a quest list button
+			Shops
+				-- Removed Preview button due to no use
+			Inventory
+				-- Removed Donate button
+					
+		Misc:
+			Humans
+				-- Revised sprites
+				-- Add new cosmetic options
+				
+			Diety System implemented
+				-- Spawned dieties will move around their half of each planet
+					** Each movement will be only 1 tile at a time unless they are at a corner of the map
+					** Temporarily, they are able to move randomly anywhere that there is insufficient neighboring locations
+				-- Each diety has a base level of 150 that is modifiable via the game difficulty
+				-- Each diety has around twice the stat growth rate of normal creatures
+					** As such, it is recommended a player has a large group at least 150% of the diety's level prior to encountering them
+				-- Dieties will be the only unit to spawn if they are currently where the player is entering a battle
+					** Upon defeat, a diety will become disabled and stop appearing, a prerequisite for beating the game
+				-- Each planet will have two dieties in the future that need to be defeated
+					
+			Houses
+				-- House template loader changed to use a single file for the templates
+				
+			Inn
+				-- Hirable units are now saved and loaded along with normal data
+	
+		Fixes:
+			** Fixed battle background not existing for Terkos
+			** Fixed hired units not changing to the player faction
+			** Fixed units not having an accurate visible level after loading a save and going into battle
+			** An extra unnecessary step of generating items in shops despite later loading from a savefile was removed
+	
+	
+	Version 1.0.006 - Town Life
+		Battle:
+			Unit morale now changes based on winning/losing battles
+				** For winning a match, all units in the player's party gain 1 Morale
+				** For losing a match, all units in the player's party lose 2 Morale
+			Reduced battle map background variety for size constraint purposes
+				** There is now a single map background for each planet that fits the planet terrain
+				
+		UI:
+			Party Overview
+				-- Removed Loyalty from display
+				-- Changed Morale to show as text instead of an image
+			World Map
+				-- Revised design
+				-- Will update/add map images when appropriate
+				-- Planets will "unlock" when the unavailable planets have maps added and a planet design
+				-- Player's current location is shown with a "You are here" arrow indicator
+			Exploration
+				-- Replaced arrows for navigating the current planet
+				-- Switched to generic town image overlay for town map tiles
+			Main Menu
+				-- Switched to generic town image overlay for town map tiles
+				-- Minor visual changes to support larger location names
+			World Map Travel
+				-- Fully changed
+					** Now can select a town with a spaceport to travel to
+					** Can only go to locations without a spaceport via exploration now
+			Options
+				-- The player can now reset their game
+					** There is a confirmation dialog before finalizing the game reset
+				
+		World:
+			Serdralus
+				-- Adjusted map
+				-- New Towns
+					** Outcast Isle (10,4) added
+					** Quoto City (3,6) added
+					** Tunis Island (6,7) added
+				-- New Battles
+					** Humid Coast (1,3) added
+					** Poles Edge (15,1) added
+					** Twilight Deep (12,5) added
+			Terkos
+				-- Added to available planets
+				-- Added world map
+				-- New Towns
+					** Vergran City (3,4) added
+				-- New Battles
+					** Crystalline Outskirts (13,6) added
+			Falezia
+				-- Modified Battles
+					** Sand Tundra (15,6) has new creatures
+	
+		Towns:
+			New Buildings:
+				-- Added Blacksmith
+					** Sells weapons and armor
+				-- Added Spellshop
+					** Sells spells
+				-- Added Market
+					** Sells furniture
+				-- Added House
+					** Can be customized nearly in full via furniture
+					** Temporarily it is default only in Bastopolis, Serdralus, and will later be removed and purchaseable in any town
+				-- Spaceport
+					** Does not use a building slot
+					** Cannot be interacted with once built or if it already exists
+					** Allows the player to travel to this location from the world map
+				-- Inn
+					** Added functionality, can now hire units to your personal party here
+					** Price based on the power of the unit
+					** Once hired, game autosaves
+					** Each unit, for now, spawns with 2 of 4 basic elemental abilities
+					** Stars show how the stats are distributed for each unit, but they all have the same total base and growth stats (for now)
+			Buildings now have a level tied to them
+				** Levels range from 1 to 10
+				** The higher the level, the better the stock for the shopping buildings
+				** Houses do not have a level
+			Town population rating is the level of the town
+				** A default starting population now exists for each town
+			Towns now have a gold hoard within them
+				** Towns keep the taxes they collect on products sold within them
+				** A default town gold stockpile now exists for each town
+			Each planet now has planet-specific platform designs that buildings sit upon
+			
+		House:
+			-- House system is now functional
+			-- Players can use furniture acquired in the game to decorate their personal house(s)
+			-- All house contents are saved and loaded appropriately
+					
+		Items:
+			-- Weapons
+				** Several new swords were added
+			-- Spells
+				** Dozens of new spells added
+				** Adjusted scaling of spell rank bonuses to be twice as useful
+				** Spell icons replaced with more generic spell icons based on the typing of the spell
+			-- Wall Furniture
+				** Wooden Wall Clock
+			-- Floor Furniture
+				** Serdralus Rug
+				** Pyrash Rug
+			-- Large Size Furniture
+				** Wooden End Table
+				** Wooden Table
+			-- Medium Size Furniture
+				** Wooden Chair
+				** Hard Wooden Chair
+			-- Small Size Furniture
+				** Heatseed Plant
+				
+		Misc:
+			** Savefiles now store map information such as danger level and controlling factions
+			** Savefiles also store relevant town information
+				Store stock is now also saved and loaded, so it is no longer random what will come up when you reload the game
+			** Removed Loyalty from the game
+			** Removed shadows from creatures
+			** Modified map loader to run faster
+	
+		Fixes:
+			** Fixed views of maps not showing the proper planet name
+			** Lowered world-map quality a tiny bit to make the app significantly more compact
+			** Fixed battle pace not resetting each battle
+			** Fixed Preview button in shops buying items instead of doing nothing for the time being
+			** Fixed occasional bug where unit health doesn't restore between battles
+			** Fixed typing error on Lava Spit for creatures
+			** Removed dragging functionality due to no current use and faulty design
+			** Fixed bug with changing locations on the exploration map screen too fast*
+			
+				* Might not be fixed, unable to recreate after attempted fix

@@ -1,0 +1,4 @@
+click.wav	Click
+zap.wav	Magic
+hit.wav	Small Hit
+largehit.wav	Large Hit

@@ -1,0 +1,48 @@
+
+fontthings.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+batang
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+
+fontthings2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+batangLarge
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+
+fontthings3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+calibriSmall
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+
+fontthings4.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+courier
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1

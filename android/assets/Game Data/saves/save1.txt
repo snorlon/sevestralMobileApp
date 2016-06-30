@@ -1,0 +1,59 @@
+[SAVEFILE]
+	[STAT]	Save 1
+	
+	[PARTY]
+		[UNIT]
+			[STAT]	Name	Pyracious
+			[STAT]	Filename	peroomf.png
+			[STAT]	Tactic	Offensive
+			[STAT]	Level	30
+			[STAT]	Exp	1
+			[STAT]	Morale	100
+			[STAT]	Loyalty	95
+			[STAT]	Personality	Reckless
+			[STAT]	Strength	51.0f
+			[STAT]	Toughness	52.0f
+			[STAT]	Dexterity	53.0f
+			[STAT]	Agility	154.0f
+			[STAT]	Intelligence	55.0f
+			[STAT]	Willpower	56.0f
+			[STAT]	Charisma	57.0f
+			[STAT]	Luck	58.0f
+			
+			[STAT]	Strength Gain	1.4f
+			[STAT]	Toughness Gain	1.2f
+			[STAT]	Dexterity Gain	1.0f
+			[STAT]	Agility Gain	0.8f
+			[STAT]	Intelligence Gain	0.6f
+			[STAT]	Willpower Gain	0.4f
+			[STAT]	Charisma Gain	0.2f
+			[STAT]	Luck Gain	0.0f
+			
+			[STAT]	Common Resist	0.3f
+			[STAT]	Fire Resist	0.1f
+			[STAT]	Water Resist	1.2f
+			[STAT]	Earth Resist	0.75f
+			[STAT]	Wind Resist	0.4f
+			[STAT]	Life Resist	0.6f
+			[STAT]	Time Resist	0.8f
+			[STAT]	Space Resist	0.9f
+			[STAT]	Void Resist	0.5f
+			[STAT]	Boss
+			[STAT]	Animation Speed	2.3f
+			[STAT]	Faction	Player
+			[STAT]	Position	2	2
+			
+
+			[EQUIP]
+				[STAT]	DmgFormula	6
+				[STAT]	Strength	51
+			[/EQUIP]
+			[ABILITY]
+				[STAT]	Damage	1.5f
+				[STAT]	Type1	Fire
+			[/ABILITY]
+		[/UNIT]
+		[UNIT]
+		[/UNIT]
+	[/PARTY]
+[/SAVEFILE]

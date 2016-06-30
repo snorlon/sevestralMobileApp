@@ -1,0 +1,9 @@
+Name: XXXXX
+Terrain:	Desert
+Planet:	Wind
+Danger:	1
+
+Neighbor:	Pebril Town
+
+Spawn:	Telo	70
+Spawn:	King Telo	30

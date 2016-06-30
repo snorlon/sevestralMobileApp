@@ -1,0 +1,19 @@
+{  
+     com.badlogic.gdx.graphics.g2d.BitmapFont: {  
+      normaltext: { file: skin/courier.fnt }, 
+      misctext: { file: skin/calibriSmall.fnt },  
+      titletext: { file: skin/batangLarge.fnt },  
+     },  
+     com.badlogic.gdx.graphics.Color: {  
+      red: { a: 1, b: 0, g: 0, r: 1 },  
+      green: { a: 1, b: 0, g: 1, r: 0 },  
+      blue: { a: 1, b: 1, g: 0, r: 0 },  
+      white: { hex: "FFFFFF" },  
+      black: { hex: "000000" }  
+     },  
+     com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {  
+      default: { font: normaltext, fontColor: white },  
+      normal-text: { font: normaltext, fontColor: white },  
+      title-text: { font: titletext, fontColor: red },  
+     }
+}  

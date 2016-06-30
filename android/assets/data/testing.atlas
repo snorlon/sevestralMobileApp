@@ -1,0 +1,26 @@
+
+pack.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+batangLarge
+  rotate: false
+  xy: 2, 2
+  size: 507, 86
+  orig: 512, 512
+  offset: 0, 426
+  index: -1
+batang
+  rotate: false
+  xy: 511, 2
+  size: 505, 61
+  orig: 512, 512
+  offset: 0, 451
+  index: -1
+calibriSmall
+  rotate: false
+  xy: 2, 90
+  size: 499, 35
+  orig: 512, 512
+  offset: 0, 477
+  index: -1
